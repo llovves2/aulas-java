@@ -82,7 +82,9 @@
 //ATVD11
 
 // let num =10;
-// console.log(num===10);
+// let num2 =10;
+// let resul = num===num2;
+// console.log(resul);
 
 //ATVD12
 
@@ -97,14 +99,131 @@
 
 // let a = "Javascript";
 // let b = "javascript";
-
-// console.log(a==b);
+// if(a==b){
+//     console.log("sim, os textos são iguais.")
+// }else{
+//     console.log("não, os textos não são iguais.")
+// }
 
 //ATVD14
 
-// let valor = 2;
-// if (valor === 0){
-//     console.log("esse numero é zero")
+// let valor = 10;
+// if ( valor<= 0){
+//     console.log("Sim, o numero é igual ou menor a 0");
 // }else{
-//    console.log("esse numero nao é zero")
+//    console.log("Não, o numero é maior que 0");
 // }
+
+//ATVD15
+
+// let txt = "aril";
+// if (txt.length >5){
+//     console.log("Sim, é maior que 5: " + txt.length);
+
+// }else{
+//     console.log("não, é menor que 5: "+ txt.length);
+
+// }
+
+//ATVD16
+// let result1 = 5+5;
+// let result2 = 5**2;
+// if (result1 == result2){
+//     console.log("Sim, os resultados são iguais.");
+
+// }else{
+//     console.log("Não, o Resultado não são iguais.");
+
+// }
+
+
+// //ATVD17
+// let saldo = 1000;
+// let saque = 50;
+// if (saque <= saldo){
+//     console.log("Vc tem saldo suficiente para o saque;");
+
+// }else{
+//     console.log("Vc não tem saldo suficiente para o saque.");
+// }
+
+// //ATVD18
+// let txt = typeof true;
+// let txt2 = typeof "true";
+// if(txt === txt2){
+//     console.log(`A variavel ${txt} é igual a variavel "${txt2}".`);
+// }else{
+//     console.log(`A variavel ${txt} não é igual a variavel "${txt2}".`)
+// }
+
+//ATVD19
+
+// let num = 9;
+// if(num >=10 && num <=50){
+//     console.log(`O numero ${num} esta entre os numeros 10 e 50. `);
+
+// }else{
+//     console.log(`O numero ${num} não está entre os numeros 10 e 50. `);
+// }
+
+//ATVD20
+
+// let usuario = "Admin";
+// let senha = "12345";
+// if(usuario === "Admin" && senha === "1234"){
+//     console.log("Login permitido");
+// }else{
+//     console.log("Login não permitido");
+// }
+
+//ATVD21 
+
+// let idade = 20;
+// if(idade >= 18 && idade <=70){
+//     console.log(`Vc está apto para votar. `);
+// }else{
+//     console.log(`Vc não está apto para votar. `);
+// }
+
+//ATVD22
+
+// let num = 14;
+// if (num % 2 === 0 && num > 0){
+//     console.log(`O numero ${num} é par e positivo. `);
+// }
+// }if(num % 2 === 0 && num < 0){
+//     console.log(`O numero ${num} é par e negativo. `);
+// }
+// if(num % 1 === 0 && num < 0){
+//     console.log(`O numero ${num} é impar e negativo. `);
+// }else{
+//     console.log(`O numero ${num} é impar e positivo. `);
+// }
+
+//ATVD23
+
+// let diasemana = "segunda";
+// if(diasemana === "sabado"){
+//     console.log(`${diasemana} é fim de semana`)
+// }else{
+//     console.log(`${diasemana} Não é fim de semana`)
+// }
+
+//ATVD24
+// let estachovendo = true;
+// console.log(!estachovendo); 
+
+//ATVD25
+
+// let media = 8;
+// let faltas = 4;
+// if(media >=7 && faltas < 10 ){
+//     console.log("O aluno foi aprovado")
+// }else{
+//     console.log("O aluno não foi aprovado")
+// }
+
+//ATVD26
+
+// let num =;
+// if(num === 0)
