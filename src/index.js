@@ -137,14 +137,15 @@
 // }
 
 
+
 // //ATVD17
 // let saldo = 1000;
-// let saque = 50;
-// if (saque <= saldo){
-//     console.log("Vc tem saldo suficiente para o saque;");
+// let saque = 5055;
+// if (saldo < saque){
+//     console.log("Vc não tem saldo suficiente para o saque;");
 
 // }else{
-//     console.log("Vc não tem saldo suficiente para o saque.");
+//     console.log("Vc tem saldo suficiente para o saque.");
 // }
 
 // //ATVD18
@@ -158,9 +159,9 @@
 
 //ATVD19
 
-// let num = 9;
-// if(num >=10 && num <=50){
-//     console.log(`O numero ${num} esta entre os numeros 10 e 50. `);
+// let num = 80;
+// if(num > 10 && num <=50){
+//     console.log(`O numero ${num} está entre os numeros 10 e 50. `);
 
 // }else{
 //     console.log(`O numero ${num} não está entre os numeros 10 e 50. `);
@@ -168,8 +169,8 @@
 
 //ATVD20
 
-// let usuario = "Admin";
-// let senha = "12345";
+// let usuario = "ralador";
+// let senha = "1234";
 // if(usuario === "Admin" && senha === "1234"){
 //     console.log("Login permitido");
 // }else{
@@ -209,7 +210,7 @@
 //     console.log(`${diasemana} Não é fim de semana`)
 // }
 
-//ATVD24
+// ATVD24
 // let estachovendo = true;
 // console.log(!estachovendo); 
 
@@ -225,5 +226,46 @@
 
 //ATVD26
 
-// let num =;
-// if(num === 0)
+// let num = 0 ;
+// if(num !=0){
+//     console.log("true");
+// }else{
+//     console.log("false");
+// }
+
+
+// //ATVD27
+// let a = 5;
+// let b = 10;
+
+//ATVD 28
+// let ld1 = 2;
+// let ld2 = 2;
+// let ld3 = 5;
+// let soma = ld1 + ld2;
+// if (soma > ld3){
+//     console.log("Sim, a soma é maior que o 3° lado.");
+// }else{
+//     console.log("Não, a soma é menor que o 3° lado.");
+// }
+
+
+// ordem de precedencia: 1° ()|| 2° **|| 3° *,/,%|| 4° +,-||.
+// Difereça entre os iguais.
+// = (recebe valores)
+//== (compara apenas o valor) EX= 5 =="5"(V)
+// === (compara o tipo e valor) Ex = 5==="5"(F)
+//!= (retorna true caso variaveis sejam diferentes) EX= 5! != "5" = (F)
+//!== (retorna true se o valor e tipo sejam diferentes) Ex = 5!== "5" (V)
+
+// EX DO OPERADOR LOGICO ! (não)
+// OPERADOR LOGICO ! INVERTE O CODIGO EX: SIM PARA NÂO, VERDADEIRO PARA FALSO, 
+
+// let login = "admin";
+
+// if(!login){
+//     console.log("login não permitido. ");
+// }
+// if(login === "admin"){
+//     console.log("login permitido.")
+// }
