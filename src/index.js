@@ -237,6 +237,11 @@
 // //ATVD27
 // let a = 5;
 // let b = 10;
+// let troca = a;
+// a = b;
+// b = troca; 
+// console.log(a);
+// console.log(b);
 
 //ATVD 28
 // let ld1 = 2;
@@ -248,6 +253,24 @@
 // }else{
 //     console.log("Não, a soma é menor que o 3° lado.");
 // }
+
+//ATVD29
+// let idadedog = 10;
+// let conversao = idadedog*7;
+// console.log(`Um cão com ${idadedog} anos de idade é equivalente a ${conversao} anos de idade humana. `);
+
+//ATVD30
+// let valorCompra = 3000.0;
+// let quantidadedeParcelas = 12.0 ;
+// let juros  = 0.02;
+// let calcJ = valorCompra*juros*quantidadedeParcelas ;
+// let calcVj = valorCompra+calcJ;
+// let calcvp = calcVj/quantidadedeParcelas;
+// //(J=C*i*t)
+// console.log(`o Juros ficou no valor de: ${calcJ}, o valor total no valor de: ${calcVj} e valor da parcela: ${calcvp}` );
+
+
+
 
 
 // ordem de precedencia: 1° ()|| 2° **|| 3° *,/,%|| 4° +,-||.
