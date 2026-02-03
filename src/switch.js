@@ -253,3 +253,159 @@
 //     }
     
 //     }
+
+//ATVD09
+// let cat = "Adulto";
+// switch(cat){
+//     case "Criança":{
+//         console.log("A faixa etaria das crianças sao de  0 á 11 anos. ");
+//     }break;
+//     case "Adolescente":{
+//         console.log("A faixa etaria dos Adolescentes sao de  12 á 18 anos. ");
+//     }break;
+//     case "Adulto":{
+//         console.log("A faixa etaria dos Adultos sao de 18 á 58 anos. ");
+//     }break;
+//     case "Idoso":{
+//         console.log("A faixa etaria dos Idosos sao de  60+. ");
+//     }break;
+//     default:{
+//         break;
+//     }
+// }
+
+//ATVD10
+// let veiculo = "caminhão";
+// switch(veiculo){
+//     case "moto":{
+//         console.log("O valor de pedagio das motos são: R$ 3,50.");
+//         break;
+//     }
+//     case "carro":{
+//         console.log("O valor de pedagio dos carros são: R$ 9,80.");
+//         break;
+//     }
+//     case "caminhão":{
+//         console.log("O valor de pedagio das caminhão são: R$ 19,70.");
+//         break;
+//     }default:{
+//         console.log("Veiculo n identificado");
+//         break;
+//     }
+// }
+
+//ATVD11
+
+// let diasemana = 7;
+// switch(diasemana){
+//     case 2:
+//     case 3:
+//     case 4:
+//     case 5:
+//     case 6:{
+//         console.log("Dia Util.");
+//         break;
+//     }
+//     case 1:
+//     case 7:{
+//         console.log("Fim de semana. ");
+//         break;
+//     }default:{
+//         console.log("Dia n identificado");
+//         break;
+//     }
+// }
+
+//ATVD12
+
+// let stspedido = 10;
+// switch (stspedido){
+//     case 1:{
+//         console.log("Aguardando. ");
+//         break;
+//     }
+//     case 2:{
+//         console.log("Enviado. ");
+//         break;
+//     }
+//     case 3:{
+//         console.log("Entrgue. ");
+//         break;
+//     }
+//     default:{
+//         console.log("Status Invalido. ");
+//         break;
+//     }
+// }
+
+//ATVD13
+
+// let direçao = "O";
+// switch (direçao){
+//     case "N":{
+//         console.log("NORTE");
+//         break;
+//     }
+//     case "S":{
+//         console.log("SUL");
+//         break;
+//     }
+//     case "L":{
+//         console.log("LESTE");
+//         break;
+//     }
+//     case "O":{
+//         console.log("OESTE");
+//         break;
+//     }
+//     default:{
+//         console.log("Direção n identificada. ");
+//         break;
+//     }
+// }
+//ATVD14
+
+// let cargo = "Vis";
+// switch (cargo){
+//     case "Admin":{
+//         console.log("Ascesso total. ");
+//         break;
+//     }
+//     case "Editor":{
+//         console.log("Ediçao de pastas. ");
+//         break;
+//     }
+//     case "Visitante":{
+//         console.log("Vizualizar superficialmente. ");
+//         break;
+//     }
+//     default:{
+//         console.log("Cargo n identificado");
+//         break;
+//     }
+// }
+//ATVD 15
+
+// let nomeAnimal ="Vaca";
+// switch(nomeAnimal){
+//     case "Gato":{
+//         console.log("Miauuuu");
+//         break;
+//     }
+//     case "Cachorro":{
+//         console.log("Au, Au");
+//         break;
+//     }
+//     case "Vaca":{
+//         console.log("Muuuu");
+//         break;
+//     }
+//     case "Ovelha":{
+//         console.log("Beeeeeeee");
+//         break;
+//     }
+//     default:{
+//         console.log("Animal n identificado");
+//         break;
+//     }
+// }
