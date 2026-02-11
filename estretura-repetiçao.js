@@ -83,7 +83,8 @@
 
 //ATVD3
 // for (let i = 1; i <=15; i ++){
-//     if (i % 2 !==0){
+//     if (i % 2 ==0)
+//         continue;{
 //         console.log(i);
 //     }
     
@@ -96,4 +97,59 @@
 // }
 
 //ATVD05
+// let resul = 0; 
+// for (let i = 1 ; i <= 10; i++){
+//     resul +=i;    
+// }
 
+// console.log(resul);
+
+//ATVD06
+// let txt = "";
+// for (let i = 1; i <10; i++){
+//     txt += "javascript";
+// }
+// console.log(txt);
+//ATVD07
+// for (let i = 0; i <=50; i ++){
+//     if (i % 5 ==0){
+//         console.log(i);
+//     }
+    
+// }
+
+//ATVD08
+// let result = 0;
+// for (let i = 1; i <=20; i++){
+//     if (i % 2 ==1)
+//         continue;
+//     result +=i;
+// }
+// console.log(result);
+
+//ATVD09 
+
+// for (let i =1; i <=10; i++){
+//     console.log(`${i} ao quadrado é = ${i**2}`);
+// }
+//ATVD10
+// let linha = "";
+// for(let i = 0; i <10; i++){
+//     linha+="*";
+    
+// }
+// console.log(linha);
+
+
+//ATVD01 while
+// for (i = 0; i <30; i++){
+//     while(i == 10){
+//     break;}
+//     console.log(i);
+    
+// let cont = 0;
+// while (cont <11){
+//     console.log("Repetição " + cont);
+//     cont++;
+// }
+// }
