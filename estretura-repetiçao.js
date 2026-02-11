@@ -6,12 +6,12 @@
 //continue = escolher entre um indice e outro./ignorar
 //foreach = é usado para percorrer arrays.
 //EX:
-// for ( let i = -10 ; i < 5; i++){
-//     if (i==3 || i ==4){
-//         continue;
-//     }
+// for ( let i = 0 ; i < 5; i++){
+//     // if (i==3 || i ==4){
+//     //     continue;
+//     // }
 //     if (i == 2){
-//         break;
+//         continue;
 //     }
 //     console.log(`Valor de i: ${i}`);
 // }
@@ -25,4 +25,75 @@
 // do{
 //     console.log("baguio doido2")
 // } while (op==0);
+
+// for + switch case.
+// let i ;
+// for (i = 2 ; i <= 2 ; i++){
+//     switch(i){
+//         case 1:{
+//             console.log("CASO 1");
+//             break;
+//         }
+//         case 2:{
+//             console.log("CASO 2");
+//             break;
+//         }
+//         default:{
+//             console.log("PADRAO");
+//             break;
+//         }
+//     }
+// }
+
+// for + if
+
+// let i;
+// for (i = 0; i <= 3 ; i++){
+//     if (i == 0) continue;
+//     if (i == 1){
+//         console.log("i é igual a 1.");
+//     }else if (i == 2){
+//         console.log("i é igual a 2.");
+//     }else {
+//         console.log("i é 0 ou 3 ou +.");
+//     }
+// }
+//do while EX:
+// let depen = 10;
+// do{
+//     let j == 00;
+//     j+=235;
+//     if( j)
+
+// }
+
+//ATVD1
+// for (let num = 1; num <=20; num++){
+//     // if (num == 20){
+//     //     break;
+//     // }
+    
+//     console.log(num);
+// }
+
+//ATVD2
+// for (let i = 10; i>=1; --i){
+//     console.log(i);
+// } 
+
+//ATVD3
+// for (let i = 1; i <=15; i ++){
+//     if (i % 2 !==0){
+//         console.log(i);
+//     }
+    
+// }
+
+//ATVD4
+// let num = 7;
+// for (let i = 1; i <=10; i++){
+//     console.log(`${num} x ${i} = ${num * i}`);
+// }
+
+//ATVD05
 
