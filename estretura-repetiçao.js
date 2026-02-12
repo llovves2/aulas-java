@@ -105,13 +105,10 @@
 // console.log(resul);
 
 //ATVD06
-// let txt = "";
-// for (let i = 1; i <10; i++){
-//     txt += "javascript";
-// }
-// console.log(txt);
+// 
+
 //ATVD07
-// for (let i = 0; i <=50; i ++){
+// for (let i = 0; i <50; i ++){
 //     if (i % 5 ==0){
 //         console.log(i);
 //     }
@@ -148,8 +145,25 @@
 //     console.log(i);
     
 // let cont = 0;
-// while (cont <11){
+// while (cont <10){
 //     console.log("Repetição " + cont);
 //     cont++;
 // }
+
+//ATVD02 while
+
+// let num = 101;
+// while (num < 100){
+//     console.log("digite o numero mais uma vez");
+//     break;
+// }while (num > 100){
+//     continue;
 // }
+
+//ATVD03
+// let conometro = 10;
+// while (conometro  <=0){
+//     console.log(conometro);
+//     conometro--;
+// }
+ 
