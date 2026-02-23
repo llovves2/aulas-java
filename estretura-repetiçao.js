@@ -152,7 +152,7 @@
 
 //ATVD02 while
 
-// let num = 101;
+// let num = 100;
 // while (num < 100){
 //     console.log("digite o numero mais uma vez");
 //     break;
@@ -160,10 +160,32 @@
 //     continue;
 // }
 
-//ATVD03
+
+    //ATVD03
 // let conometro = 10;
-// while (conometro  <=0){
+// while (conometro  >= 0){
 //     console.log(conometro);
 //     conometro--;
+    
+    
 // }
- 
+// console.log("lançar.");
+
+
+//ATVD04
+// let n1 =1;
+// let soma =0;
+// let media = 5;
+// while(n1 < 6){
+//     console.log(n1)
+//     n1++;
+// }  
+//ATVD 05
+
+// let num = 51;
+// while(num % 7 !== 0){
+    
+//     num++; 
+// }
+// console.log("primeiro numero multiplo de 7 maior que 50 é: " + num);
+//ATVD 06
