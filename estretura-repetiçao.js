@@ -100,6 +100,7 @@
 // let resul = 0; 
 // for (let i = 1 ; i <= 10; i++){
 //     resul +=i;    
+//     console.log(resul);
 // }
 
 // console.log(resul);
@@ -139,16 +140,21 @@
 
 
 //ATVD01 while
-// for (i = 0; i <30; i++){
-//     while(i == 10){
-//     break;}
-//     console.log(i);
     
 // let cont = 0;
 // while (cont <10){
 //     console.log("Repetição " + cont);
 //     cont++;
 // }
+// let cont =0;
+// while(cont>=0){
+//     if(cont === 11){
+//         break;
+//     }
+//     console.log(cont);   
+//     ++cont;
+// }
+
 
 //ATVD02 while
 
@@ -166,20 +172,42 @@
 // while (conometro  >= 0){
 //     console.log(conometro);
 //     conometro--;
-    
-    
+
+
 // }
 // console.log("lançar.");
 
 
+
+// let tempo = 11;
+// while(tempo >0){
+//     --tempo;
+    
+//     if(tempo === 0 ){
+//         console.log("lançar!");
+//         break;
+//     }
+//     console.log(tempo);
+// }
+
+    
+
 //ATVD04
-// let n1 =1;
-// let soma =0;
+
+// let contador = 0;
+// let num = 0;
+// let soma = 0;
 // let media = 5;
-// while(n1 < 6){
-//     console.log(n1)
-//     n1++;
-// }  
+// while(contador < 6){
+//     // console.log(contador);
+//   soma = soma + num;
+//     contador++;
+//   console.log(soma);
+
+// }
+// media /= soma;
+// console.log(media);
+
 //ATVD 05
 
 // let num = 51;
@@ -189,3 +217,39 @@
 // }
 // console.log("primeiro numero multiplo de 7 maior que 50 é: " + num);
 //ATVD 06
+
+// let i = 0;
+// while(i!==5){
+//    i = Math.floor(Math.random()*10)+1;
+//    console.log(i);
+// }
+//ATVD07
+// let cont = 1;
+// let soma = 0;
+// while(soma <=50){
+//     soma+=cont;
+//     console.log(`Adicionando ${cont}, soma atual: ${soma}`);
+// }
+// console.log("Valor total: " + soma);
+
+//ATVD08
+// let i = 1;
+// while(i <=1000){
+//     console.log(i);
+//     i *=2;
+//      }
+     
+//ATVD09
+// let i =1;
+// while (i<16){
+    
+//     console.log(i);
+//     i+=2;
+// }
+
+//ATVD10
+let cond = false;
+while(cond){
+    console.log("Ola mundo. ");
+    cond = true;
+}
