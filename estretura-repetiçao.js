@@ -569,6 +569,12 @@
 // }
 
 //ATVD 15
-// let i ;
-// for( i = 1;)
+// let soma = 0 ;
+// for( let i = 1; i <=5; i++){
+//     let nota = parseFloat(prompt("Digite sua nota " + i + ":"))
+//     soma += nota;
+// }
+// let media = soma /5;
+// alert("A media das nota é igual a: " + media);
+
 
