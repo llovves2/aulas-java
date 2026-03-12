@@ -89,3 +89,35 @@
 
 //ATVD05
 
+// const dF = (vl) => vl*10/100;
+// // let vl = dF(5000);
+// // console.log(vl);
+// let vl = dF(parseFloat(prompt("Digite o valor.")));
+// alert(`O valor do desconto é igual a: ${vl}`);
+
+//ATVD06 
+
+// const vP = (num) => num % 2 == 0 ;
+// // let num = vP(4);
+// // console.log(num);
+
+// let num = vP(parseInt(prompt("Digite um numero para a verificação:")));
+// alert(`Verificamos que o numero  é : ${num}`);
+
+//ATVD07
+// const calcAr = (b,al) => b*al/2;
+// // let calc = calcAr(3, 7);
+// // console.log(calc);
+// let b = parseInt(prompt("Digite a Base do triangulo. "));
+// let al = parseInt(prompt("Digite a Altura do triangulo. "));
+// let calc = calcAr(b,al);
+// alert("A Area do seu triangulo é igual a : " +calc);
+
+//ATVD08
+// const fTxt = (txt) => txt.toUpperCase();
+// // let txt = fTxt("jaguço");
+// // console.log(txt);
+// let txt = fTxt(prompt("Digite uma String. "));
+// alert(txt);
+
+
