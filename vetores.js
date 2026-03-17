@@ -9,7 +9,7 @@
 //vet.push colocara um indice em ultimo no lugar do vetor
 //vet.pop metodo void do vetor, excluirar ultimo indice
 //vet unshift colocara um indice no inicio do vetor. 
-//vet.shift irar manter o indice.
+//vet.shift irar manter o indice e remove o primeiro indice.
 //vet.length ira mostrar qiantos indeces tem no vetor
 //vet.indexoff mostrará a posciçao do vetor
 
@@ -26,3 +26,54 @@
 // let vet = [1, 2, 3, 4, 5, 6];
 // vet.unshift(10);
 // console.log(vet);
+
+
+//ATVDFix01
+// let vet = ["azivis", "vermelho", "verde"];
+// alert(vet[0]);
+
+//ATVD02
+// let vet = ["azivis", " vermelho ", " verde"];
+// vet.push("amarelo");
+// alert(vet);
+
+//ATVD03
+// let vet = ["azivis", " vermelho ", " verde"];
+// let nomeRemovido = vet.pop();
+// console.log("vetor atual: ",  vet);
+
+// console.log("O nome removido foi: ",  nomeRemovido);
+
+//ATVD04
+// let vet = [1,23,32,47,55,64,7,8,9,100];
+// console.log(vet.length);
+
+//ATVD05
+
+// let vet = ["byd", "bwm", "mercedes"];
+// vet [1]= "toyta";
+// alert(vet);
+
+//ATVD06
+
+// let vet = [105,24,37,44,58];
+// let primeiroI = vet[0];
+// let ultimoI = vet [4];
+// let soma = primeiroI + ultimoI;
+// console.log(soma);
+
+//ATVD07
+// let sovertes = ["morango", "cereja", "chocolate"];
+// sovertes.unshift("menta");
+// console.log(sovertes);
+
+//ATVD08
+
+// let cidades = ["salvador", "lauro de freitas", "Juazeiro"];
+// cidades.shift();
+// console.log(cidades);
+
+//ATVD09
+
+// let frutas = ["maçã", "coco","morango", "banana"];
+// console.log(frutas.indexOf("banana"));
