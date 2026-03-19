@@ -82,7 +82,11 @@
 //ATVD10
 
 // let animais = ["urso", "vaca", "mocó", "jegue"];
-// animais.reverse();
+// animais.reverse();´
+
+
+
+
 // alert(animais);
 
 //ATVD11
@@ -127,13 +131,27 @@
 
 //ATVD15
 // let numeros = [100, 15, 17, 55, 14,13];
-// let maior = Math.max(...numeros);
-// console.log(maior);
+// // let maior = Math.max(...numeros);
+// // console.log(maior);
 
-
+// let num = numeros[0];
+// for (i = 0; i < numeros.length; i++){
+//     if (numeros[i] > num){
+//         num = numeros[i];
+//     }
+// }
+// console.log(num);
 //ATVD16
+// let vetO = [100, 15, 17, 55, 14,13];
+// let vet2 = [];
+// for (let i = 0; i < vetO.length -1; i++){
+//     vet2.push(vetO[i]);
+// }
+// console.log(vet2);
+
 
 // let vetO = [100, 15, 17, 55, 14,13];
 // let dobro = vetO.map(numero => numero * 2);
 // console.log(dobro);
 // console.log(vetO);
+
